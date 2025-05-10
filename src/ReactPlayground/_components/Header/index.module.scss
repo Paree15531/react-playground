@@ -1,0 +1,22 @@
+.header {
+  height: 50px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #000;
+  font-weight: 550;
+  font-family: "Microsoft YaHei";
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--bg);
+  color: var(--text);
+  .logo {
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    img {
+      height: 30px;
+      margin-right: 10px;
+    }
+  }
+}
